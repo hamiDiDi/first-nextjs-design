@@ -3,8 +3,8 @@ import Image from "next/image"; // Import the Image component from Next.js
 function NavBar() {
 	return (
 		<>
-			<div className="flex fixed top-0 bg-[#fff] w-full max-h-14 text-[#333] justify-between self-center items-center px-4 py-2 max-w-7xl">
-				<div className="flex  justify-between max-w-7xl w-full">
+			<div className="flex fixed top-0 bg-[#fff] w-full max-h-14 text-[#333] justify-between self-center items-center px-10 py-2 max-w-[1450px]">
+				<div className="flex  justify-between max-w-[1450px] w-full">
 					<div className="flex gap-4 items-center">
 						<div className="flex items-center">
 							<Image
